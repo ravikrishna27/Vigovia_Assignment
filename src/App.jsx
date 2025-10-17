@@ -274,6 +274,9 @@ const ItineraryBuilder = () => {
       margin: 0;
       padding: 0;
       box-sizing: border-box;
+      /* Add these two lines to force printing background colors */
+      -webkit-print-color-adjust: exact;
+      print-color-adjust: exact;
     }
     
     body {
